@@ -58,7 +58,7 @@ func (a MxArray) SetM(n int) {
 }
 
 func (a MxArray) GetN() int {
-	return int(C.mxGetM(a.mxArray))
+	return int(C.mxGetN(a.mxArray))
 }
 
 func (a MxArray) SetN(n int) {
