@@ -1,6 +1,6 @@
 package main
 
-import "matlab/mclmcr"
+import "git.zuihuayin.work/ben/matlab/mclmcr"
 
 func main() {
 	mclmcr.InitializeApplication()
