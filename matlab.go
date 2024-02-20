@@ -27,7 +27,7 @@ func MclTerminateApplication() bool {
 
 // MclWaitForFiguresToDie Enable deployed applications to process graphics events so that figure windows remain displayed
 func MclWaitForFiguresToDie() {
-
+	C.mclWaitForFiguresToDie(nil)
 }
 
 //func mclRunMain() string {
