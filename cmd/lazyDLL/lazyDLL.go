@@ -1,6 +1,6 @@
 package main
 
-import "goMatlab/mclmcr"
+import "matlab/mclmcr"
 
 func main() {
 	mclmcr.InitializeApplication()
