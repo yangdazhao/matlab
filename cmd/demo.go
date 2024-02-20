@@ -1,9 +1,7 @@
 package main
 
-import "goMatlab"
-
 func main() {
-	goMatlab.MclInitializeApplication()
+	matlab.MclInitializeApplication()
 	select {}
 
 }

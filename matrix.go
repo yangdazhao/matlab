@@ -1,4 +1,4 @@
-package goMatlab
+package matlab
 
 /*
 #cgo windows CPPFLAGS: -I"C:/Program Files/MATLAB/MATLAB Runtime/R2022b/extern/include"

@@ -1,3 +1,3 @@
-module goMatlab
+module matlab
 
 go 1.21
