@@ -34,6 +34,16 @@ type Mat struct {
 	MATFile *C.MATFile
 }
 
+func OpenMat(filename string) *Mat {
+	m := &Mat{}
+
+	err := m.Open(filename, r.String())
+	if err != nil {
+		log.Println(err)
+	}
+	return m
+}
+
 func (m *Mat) Open(filename, mode string) error {
 	_file := C.CString(filename)
 	_mode := C.CString(mode)
