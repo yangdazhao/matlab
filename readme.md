@@ -1,5 +1,6 @@
 ```shell
 go get git.zuihuayin.work/ben/matlab
-``````shell
+```
+```shell
 go get -u git.zuihuayin.work/ben/matlab
 ```
